@@ -20,6 +20,7 @@ public class selecitonSort {
         }
         return arr;
     }
+    //{3, 1, 2, 6, 5, 0}
     public static int[] selected(int[] arr) {
         for(int i = 0;i < arr.length - 1; i++) {
             int min = i;

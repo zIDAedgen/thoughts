@@ -1,6 +1,7 @@
 package Sorts;
 
 public class InsertionSort {
+    //{3, 1, 2, 6, 5, 0}
     public static int[] insert(int[] arr) {
         for(int i = 1; i < arr.length; i++) {
             int temp = arr[i];
